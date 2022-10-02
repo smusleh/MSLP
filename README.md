@@ -13,4 +13,6 @@ Contains 4 floders:
          Contains all five Fasta Sequence Files used to train MLP models. The fifth one is a combination of all Fastafiles.
 
 ## Code Folder:
-Shap analysis Jupyter Notebook 
+* Shap analysis Jupyter Notebook
+* Feature generation 
+* Ablation study code
