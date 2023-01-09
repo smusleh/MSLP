@@ -38,8 +38,7 @@ type hints to validate, serialize, and deserialize data, and automatically auto-
  localization_api.py: python file contains code and logic to build the API endpoints
  
 ## Docker Guideline:
-OPTION 1:
-Use the PREBUILT Docker image available on the public Docker Hub Account
+**OPTION 1: Use the PREBUILT Docker image available on the public Docker Hub Account**
 
 FROM USER SIDE (User Computer):
 1. Install Docker Desktop (Windows, Linux, or MacBook iOS)
@@ -51,8 +50,7 @@ FROM USER SIDE (User Computer):
 	- Open the local browser and type in the address bar the following link:
 	  http://127.0.0.1:7000/docs or http://localhost:7000/docs  
 
-OPTION 2:
-Build and run the Docker Container locally and run.
+**OPTION 2: Build and run the Docker Container locally and run.**
 
 FROM USER SIDE (User Computer):
 1. Clone this directory to local folder in your system
