@@ -68,9 +68,9 @@ Once the container is up and running (OPTION 1 or OPTION 2):
    each sequence in the master file passes through all classifiers, a prediction probability
    get generated, and then the sequence gets assigned to classifiers that have the highest 
    probability. The sequences are then of that classier class.
-   
-3. To download the predictions in CSV format:
-   type in the following link:
+
+**Download Prediction Results: To download the predictions in CSV format.**   
+   Type in the following link:
    http://localhost:7000/download_prediction_file
    
    To download the features file generated "master.csv" file, open a new tap on the browser and
