@@ -1,0 +1,8 @@
+version: "3.9"
+services:
+  mlp-loca:
+    build: .
+    ports:
+      - "7000:8000"
+    volumes:
+      - .:/app
