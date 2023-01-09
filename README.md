@@ -1,6 +1,8 @@
 # mRNA Subcellular Localization Predictor
 A machine learning-based tool to predict the subcellular localization of mRNA
 
+
+
 ## Data folder
 Contains 4 floders:
 * IDS_I: Independent Dataset I : 
@@ -22,21 +24,20 @@ The folder contains python code to generate MLP Application Programming Interfac
 FastAPI (a Web framework for developing RESTful APIs in Python). It is based on Pydantic and 
 type hints to validate, serialize, and deserialize data, and automatically auto-generate OpenAPI documents.
 
-The folder structure:
-App:
- fasta folder contains sample fasta file
- input folder contains uploaded fasta files
- models folder contains MLP-trained binary classifiers based on OvR strategy.
+
+ ## Docker Folder:
+ * fasta folder contains sample fasta file
+ * input folder contains uploaded fasta files
+ * models folder contains MLP-trained binary classifiers based on OvR strategy.
                 One model for each of the five localizations
- output folder: temp folder
- util folder contains code and classes to generate the four types of features (Kmer, PseKNC, PSEEIIP, 
+ * output folder: temp folder
+ * util folder contains code and classes to generate the four types of features (Kmer, PseKNC, PSEEIIP, 
               TPCP, DPCP, Z_curve_48bit, and Z_curve_144bit.
  docker-compose.yaml, Dockerfie: Specs to build the MLP container
  requirements.txt: All required packages to build the API within the container 
  localization_api.py: python file contains code and logic to build the API endpoints
  
- 
-
+## Docker Guideline:
 OPTION 1:
 Use the PREBUILT Docker image available on the public Docker Hub Account
 
