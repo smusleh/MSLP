@@ -12,7 +12,7 @@ Contains 4 floders:
 * TEST_01: Testset_01: 
          Independent dataset files used for testing only.
 * Train: Training Dataset: 
-         Contains all five Fasta Sequence Files used to train MLP models. The fifth one is a combination of all Fastafiles.
+         Contains all five Fasta Sequence Files used to train MSLP models. The fifth one is a combination of all Fastafiles.
 
 ## Code Folder:
 * Shap analysis Jupyter Notebook
@@ -28,12 +28,12 @@ type hints to validate, serialize, and deserialize data, and automatically auto-
  ## Docker Folder:
  * fasta folder contains sample fasta file
  * input folder contains uploaded fasta files
- * models folder contains MLP-trained binary classifiers based on OvR strategy.
+ * models folder contains MSLP-trained binary classifiers based on OvR strategy.
                 One model for each of the five localizations
  * output folder: temp folder
  * util folder contains code and classes to generate the four types of features (Kmer, PseKNC, PSEEIIP, 
               TPCP, DPCP, Z_curve_48bit, and Z_curve_144bit.
- docker-compose.yaml, Dockerfie: Specs to build the MLP container
+ docker-compose.yaml, Dockerfie: Specs to build the MSLP container
  requirements.txt: All required packages to build the API within the container 
  localization_api.py: python file contains code and logic to build the API endpoints
  
@@ -46,7 +46,7 @@ FROM USER SIDE (User Computer):
 
 2. RUN the following command: Open a terminal session (Windows - command line or cmd, on MacBook it is terminal, on Ubuntu it is console app)
 	- Type in the following command:
-		docker run -p 7000:8000 smusleh/localization:mlp
+		docker run -p 7000:8000 smusleh/localization:mslp
 	- Open the local browser and type in the address bar the following link:
 	  http://127.0.0.1:7000/docs or http://localhost:7000/docs  
 
