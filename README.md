@@ -20,7 +20,7 @@ Contains 4 floders:
 * Ablation study code
 
 
-The folder contains python code to generate MLP Application Programming Interface (API) using.
+The folder contains python code to generate MSLP Application Programming Interface (API) using.
 FastAPI (a Web framework for developing RESTful APIs in Python). It is based on Pydantic and 
 type hints to validate, serialize, and deserialize data, and automatically auto-generate OpenAPI documents.
 
