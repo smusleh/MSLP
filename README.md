@@ -1,5 +1,7 @@
 # mRNA Subcellular Localization Predictor
-A machine learning-based tool to predict the subcellular localization of mRNA
+MSLP: mRNA subcellular localization predictor based on machine learning techniques is a machine learning-based tool to predict the subcellular localization of mRNA. The mauscript is published in BMC Bioinformatics.
+Please cite:
+Musleh, S., Islam, M.T., Qureshi, R. et al. MSLP: mRNA subcellular localization predictor based on machine learning techniques. BMC Bioinformatics 24, 109 (2023). https://doi.org/10.1186/s12859-023-05232-0
 
 
 
